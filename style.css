@@ -4,13 +4,9 @@
   font-family: "Inter", sans-serif;
 }
 
-header {
-  background-color: lightblue;
-}
-
 .header-container {
   max-width: 1280px;
-  border: 2px solid green;
+  /* border: 2px solid green; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -31,15 +27,70 @@ header {
 
 .btn {
   background-color: #1d4ed8;
-  padding: 12px 20px;
+  padding: 16px 28px;
   border: none;
   border-radius: 6px;
   color: white;
-  font-weight: 500;
+  font-weight: 700;
   cursor: pointer;
 }
 
 .btn:hover {
   background-color: #1d4fd8d9;
   color: rgba(255, 255, 255, 0.879);
+}
+
+.banner-container {
+  min-height: 100vh;
+  background-image:
+    radial-gradient(
+      circle at bottom left,
+      rgba(0, 0, 0, 0.8) 0%,
+      rgba(0, 0, 0, 0.4) 35%,
+      rgba(0, 0, 0, 0) 70%
+    ),
+    url(./assets/banner.jpg);
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  justify-content: center;
+}
+
+.banner-contents {
+  /* max-width: 600px; */
+  height: 70vh;
+  margin: 80px auto;
+
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.banner-heading {
+  font-size: 4rem;
+  font-weight: black;
+  color: white;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.banner-description {
+  color: rgba(255, 255, 255, 0.626);
+  margin-bottom: 40px;
+}
+
+.banner-btn {
+  margin-top: auto;
+  margin-bottom: 20px;
+}
+
+main {
+  margin: 40px auto;
+  max-width: 1280px;
+}
+
+.speaker-heading {
+  text-align: center;
+  font-size: 4rem;
 }
