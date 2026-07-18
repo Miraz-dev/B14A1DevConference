@@ -90,6 +90,7 @@ main {
   max-width: 1280px;
 }
 
+/* Speaker section */
 .speaker-heading {
   text-align: center;
   font-size: 4rem;
@@ -135,5 +136,116 @@ main {
 .work-postion {
   font-size: 0.8rem;
   font-weight: normal;
+  color: gray;
+}
+
+/* Pricing section */
+.pricing-section-heading {
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 80px;
+}
+
+.pricing-section-heading h1 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.pricing-section-heading h6 {
+  color: gray;
+  font-weight: normal;
+  font-size: 1.2rem;
+}
+
+.pricing-cards-container {
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid indianred; */
+  gap: 10px;
+}
+
+.pricing-card {
+  border: 1px solid lightgray;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-radius: 20px;
+  padding: 30px;
+  min-width: 320px;
+}
+
+.plan {
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.plan h5 {
+  font-weight: 500;
+  color: gray;
+}
+
+.plan h2 {
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.plan h6 {
+  font-weight: normal;
+  font-size: 0.8rem;
+  color: gray;
+  margin-bottom: 20px;
+}
+
+.plan-description ul {
+  /* border: 1px solid green; */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  list-style: inside;
+}
+
+.plan-description ul li::marker {
+  color: #3182ce;
+}
+
+.plan-description button {
+  width: 100%;
+  font-size: 1.2rem;
+  font-weight: normal;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.plan-description button:hover {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.blue-outline-hollow-inside {
+  border: 2px solid #3182ce;
+  color: #3182ce;
+  background-color: white;
+}
+
+.complete-blue-white-text {
+  border: 2px solid #3182ce;
+  background-color: #3182ce;
+  color: white;
+}
+
+.black-outline-silver-inside {
+  border: 2px solid black;
+  color: black;
+  background-color: rgb(249, 248, 248);
+}
+
+.silver-bg {
+  background-color: rgb(249, 248, 248);
+}
+
+.black-background-gray-text {
+  background-color: black;
   color: gray;
 }
