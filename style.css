@@ -93,4 +93,47 @@ main {
 .speaker-heading {
   text-align: center;
   font-size: 4rem;
+  margin-bottom: 40px;
+}
+
+.speaker-cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(620px, 1fr));
+  /* grid-template-columns: repeat(2, 1fr); */
+  gap: 20px;
+}
+
+.speaker-card {
+  border: 1px solid lightgray;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.speaker-img img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.speaker-info {
+  padding: 15px;
+}
+
+.expertise {
+  color: blue;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+.speaker-info h4 {
+  /* speaker names */
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.work-postion {
+  font-size: 0.8rem;
+  font-weight: normal;
+  color: gray;
 }
