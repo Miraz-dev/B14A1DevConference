@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+header {
+  background-color: lightblue;
+}
+
+.header-container {
+  max-width: 1280px;
+  border: 2px solid green;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.navigations ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+.navigations ul a {
+  text-decoration: none;
+  color: rgb(88, 86, 86);
+}
+
+.btn {
+  background-color: #1d4ed8;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #1d4fd8d9;
+  color: rgba(255, 255, 255, 0.879);
+}
