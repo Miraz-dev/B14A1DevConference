@@ -246,6 +246,23 @@ main {
 }
 
 .black-background-gray-text {
-  background-color: black;
+  background-color: #0d1b2a;
   color: gray;
+}
+
+/* Footer section */
+footer {
+  background-color: #0d1b2a;
+  padding: 40px;
+  margin-top: 60px;
+  color: gray;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-links a {
+  text-decoration: none;
+  color: gray;
+  margin-right: 15px;
 }
