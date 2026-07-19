@@ -266,3 +266,77 @@ footer {
   color: gray;
   margin-right: 15px;
 }
+
+/* Custom Section where I used AI */
+.faq-header {
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+.faq-heading {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+.faq-subheading {
+  color: gray;
+  font-weight: normal;
+  font-size: 1.2rem;
+}
+
+summary {
+  /* Remove the default arrow.Browsers add a small triangle automatically.You can hide it */
+  list-style: none;
+}
+
+summary::-webkit-details-marker {
+  /* Remove the default arrow.Browsers add a small triangle automatically.You can hide it */
+  display: none;
+}
+
+summary::after {
+  /* Add your own + and − */
+  content: "+";
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+details[open] summary::after {
+  /* Attribute selectors (details[open]) */
+  /* Now the question automatically changes from + to - when opened. */
+  content: "−";
+}
+
+.faq-item {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+summary {
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1.1rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faq-item p {
+  margin-top: 1rem;
+  line-height: 1.7;
+  color: #555;
+}
+
+.faq-item {
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.faq-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+}
